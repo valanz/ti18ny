@@ -1,0 +1,30 @@
+{
+  "name": "ti18ny",
+  "version": "0.1.0",
+  "description": "tiny internationalization tool",
+  "main": "lib/Translator.js",
+  "types": "lib/Translator.d.ts",
+  "author": "Valentin Menardie",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^21.1.5",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.1.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
