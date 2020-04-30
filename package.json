@@ -7,9 +7,9 @@
   "author": "Valentin Menardie",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^21.1.5",
+    "@types/jest": "^21.1.10",
     "jest": "^21.2.1",
-    "ts-jest": "^21.1.4"
+    "ts-jest": "^21.2.4"
   },
   "jest": {
     "transform": {
@@ -25,6 +25,9 @@
     ]
   },
   "dependencies": {
-    "typescript": "^2.6.2"
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
